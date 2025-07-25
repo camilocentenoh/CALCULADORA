@@ -1,0 +1,48 @@
+main {
+    text-align: center;
+}
+
+#calculadora {
+    display: flex;
+    justify-content: center;
+}
+
+#formulario {
+    padding: 20px 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+.numeros {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#valor1,
+#valor2 {
+    width: 200px;
+}
+
+#botones {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.button {
+    width: 150px;
+    background-color: #3374ff;
+    color: #fff;
+    border-color: #3374ff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#resultado {
+    margin-top: 40px;
+    color: #ff5733;
+    font-size: 40px;
+    text-align: center;
+}
